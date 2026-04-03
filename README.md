@@ -1,4 +1,4 @@
-# docker-weixin-latest
+# docker-wechat
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/a952454/docker-weixin-latest)](https://hub.docker.com/r/a952454/docker-weixin-latest)
 [![Docker Image Size](https://img.shields.io/docker/image-size/a952454/docker-weixin-latest/latest)](https://hub.docker.com/r/a952454/docker-weixin-latest)
