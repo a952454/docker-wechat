@@ -21,7 +21,7 @@ The official `linuxserver/weixin` image is great, but it bundles a specific WeCh
 ### Pull the image
 
 ```bash
-docker pull a952454/docker-weixin-latest:latest
+docker pull a952454/docker-wechat:latest
 
 docker run -d \
   --name weixin \
@@ -34,4 +34,4 @@ docker run -d \
   -v /path/to/weixin/config:/config \
   -v /path/to/weixin/data:/data \
   --restart unless-stopped \
-  a952454/docker-weixin-latest:latest
+  a952454/docker-wechat:latest
