@@ -36,3 +36,5 @@ docker run -d \
   --restart unless-stopped \
   a952454/docker-wechat:latest
 
+![628f432bccdf82eddcfda851c1ed0af9](https://github.com/user-attachments/assets/c55264c1-18a7-41b7-82d6-030d31dec1a2)
+The latest version of WeChat supports backing up WeChat chat history.
