@@ -28,8 +28,10 @@ docker run -d \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=Asia/Shanghai \
+  -e LC_ALL=zh_CN.UTF-8 \
   -p 3000:3000 \
+  -p 3001:3001 \
   -v /path/to/weixin/config:/config \
   -v /path/to/weixin/data:/data \
   --restart unless-stopped \
-  yourusername/docker-weixin-latest:latest
+  a952454/docker-weixin-latest:latest
