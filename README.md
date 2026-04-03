@@ -15,6 +15,8 @@ The official `linuxserver/weixin` image is great, but it bundles a specific WeCh
 - ✅ Automatically updates WeChat to the latest Linux version at container start  
 - ✅ All original environment variables and volumes from `linuxserver/weixin` still work  
 - ✅ Lightweight – only adds a small update script  
+- ✅ The latest version of WeChat supports backing up WeChat chat history.
+   <img width="1984" height="1280" alt="image" src="https://github.com/user-attachments/assets/cbb887d5-8603-4b81-91a3-4a08105b5535" />
 
 ## Quick Start
 
@@ -35,6 +37,4 @@ docker run -d \
   -v /path/to/weixin/config:/config \
   --restart unless-stopped \
   a952454/docker-wechat:latest
-
-![628f432bccdf82eddcfda851c1ed0af9](https://github.com/user-attachments/assets/c55264c1-18a7-41b7-82d6-030d31dec1a2)
-The latest version of WeChat supports backing up WeChat chat history.
+```bash
