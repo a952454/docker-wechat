@@ -23,6 +23,7 @@ The official `linuxserver/weixin` image is great, but it bundles a specific WeCh
 ```bash
 docker pull a952454/docker-wechat:latest
 
+# Replace /path/to/config and /path/to/data with your actual host directories.
 docker run -d \
   --name weixin \
   -e PUID=1000 \
@@ -32,6 +33,6 @@ docker run -d \
   -p 3000:3000 \
   -p 3001:3001 \
   -v /path/to/weixin/config:/config \
-  -v /path/to/weixin/data:/data \
   --restart unless-stopped \
   a952454/docker-wechat:latest
+
